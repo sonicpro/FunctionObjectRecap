@@ -1,6 +1,13 @@
-#ifndef VECTORPRINTER_H
-#define VECTORPRINTER_H
+#pragma once
 
+// Contains one static method that takes vector<int> and prints into cout 'odd' or 'even' for each element of vector.
 
+#include <vector>
 
-#endif
+using std::vector;
+
+class vectorPrinter
+{
+public:
+	static void print(vector<int>);
+};
