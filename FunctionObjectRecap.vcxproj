@@ -61,9 +61,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FunctionObjectRecap.cpp" />
+    <ClCompile Include="parseNumericalInput.cpp" />
+    <ClCompile Include="vectorPrinter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="parseNumericalInput.h" />
+    <ClInclude Include="vectorPrinter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
