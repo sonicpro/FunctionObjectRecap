@@ -1,0 +1,2 @@
+It's a remake of MSDN "Lambda Expressions in C++" artivle example 1 (http://msdn.microsoft.com/en-us/library/aa985932%28v=vs.100%29.aspx).
+The task is to print for a vector<int> whether each element is odd number or otherwise.
