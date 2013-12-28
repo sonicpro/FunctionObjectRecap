@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FunctionObjectRecap.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="vectorPrinter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="parseNumericalInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oddityPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -33,6 +36,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="parseNumericalInput.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oddityPrinter.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

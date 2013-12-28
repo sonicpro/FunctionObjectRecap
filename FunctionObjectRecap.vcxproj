@@ -60,7 +60,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FunctionObjectRecap.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="oddityPrinter.cpp" />
     <ClCompile Include="parseNumericalInput.cpp" />
     <ClCompile Include="vectorPrinter.cpp" />
   </ItemGroup>
@@ -68,6 +69,7 @@
     <None Include="README" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="oddityPrinter.h" />
     <ClInclude Include="parseNumericalInput.h" />
     <ClInclude Include="vectorPrinter.h" />
   </ItemGroup>
